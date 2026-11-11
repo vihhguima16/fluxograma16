@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#173f35">
+  <meta name="description" content="Explore um fluxograma interativo sobre como a inteligência artificial pode ajudar a proteger o meio ambiente.">
+  <title>IA pela Natureza — Fluxograma ambiental</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header class="topbar page-width">
+    <a class="brand" href="#inicio" aria-label="IA pela Natureza, início"><span class="brand-icon" aria-hidden="true">✳</span> IA pela Natureza</a>
+    <span class="top-note">Tecnologia com propósito <span aria-hidden="true">🌿</span></span>
+  </header>
+
+  <main class="page-width" id="inicio">
+    <section class="hero">
+      <div class="hero-copy">
+        <p class="eyebrow">Um futuro mais equilibrado</p>
+        <h1>Inteligência artificial <em>a favor da vida.</em></h1>
+        <p class="hero-description">Como a IA pode ajudar pessoas a entender os desafios ambientais, cuidar dos ecossistemas e proteger o planeta?</p>
+        <a class="hero-link" href="#fluxograma">Explore o fluxograma <span aria-hidden="true">↓</span></a>
+      </div>
+      <div class="hero-illustration" aria-hidden="true">🌱</div>
+    </section>
+
+    <section class="intro" aria-labelledby="flow-title">
+      <div><p class="section-kicker">Da informação à ação</p><h2 id="flow-title">Um caminho inteligente para cuidar da Terra.</h2></div>
+      <p>Acompanhe as etapas, siga as setas e selecione os blocos para descobrir como tecnologia e ação humana podem trabalhar juntas.</p>
+    </section>
+
+    <section class="flow-card" id="fluxograma" aria-label="Fluxograma sobre inteligência artificial e proteção ambiental">
+      <div class="flow-card-heading"><strong>O ciclo da proteção ambiental</strong><span>Selecione os blocos para saber mais</span></div>
+      <div class="diagram-scroll">
+        <div class="flowchart" aria-label="Fluxograma com início, seis etapas, decisões e caminhos de sim e não">
+          <div class="flow-row centered">
+            <button class="flow-node terminator" data-info="inicio" aria-haspopup="dialog">Início</button>
+          </div>
+          <div class="connector vertical" aria-hidden="true"></div>
+
+          <div class="flow-row centered">
+            <button class="flow-node process" data-info="observar" aria-haspopup="dialog"><span class="node-step">ETAPA 1</span>Observar a natureza</button>
+          </div>
+          <div class="connector vertical" aria-hidden="true"></div>
+
+          <div class="flow-row centered">
+            <button class="flow-node decision" data-info="risco" aria-haspopup="dialog"><span>Os dados indicam<br>um risco ambiental?</span></button>
+          </div>
+          <div class="branch-lines" aria-hidden="true"><span class="branch-stem"></span><span class="branch-horizontal"></span><span class="branch-down left"></span><span class="branch-down right"></span><span class="branch-arrow left"></span><span class="branch-arrow right"></span></div>
+
+          <div class="branch-row">
+            <div class="branch-column">
+              <span class="branch-label">SIM</span>
+              <button class="flow-node process" data-info="prever" aria-haspopup="dialog"><span class="node-step">ETAPA 2</span>Prever e localizar ameaças</button>
+            </div>
+            <div class="branch-column">
+              <span class="branch-label">NÃO</span>
+              <button class="flow-node process" data-info="monitorar" aria-haspopup="dialog"><span class="node-step">ETAPA 2</span>Continuar monitorando</button>
+            </div>
+          </div>
+          <div class="merge-lines" aria-hidden="true"><span class="merge-down left"></span><span class="merge-down right"></span><span class="merge-horizontal"></span><span class="merge-stem"></span><span class="merge-arrow"></span></div>
+
+          <div class="flow-row centered">
+            <button class="flow-node process" data-info="planejar" aria-haspopup="dialog"><span class="node-step">ETAPA 3</span>Planejar soluções com a comunidade</button>
+          </div>
+          <div class="connector vertical" aria-hidden="true"></div>
+
+          <div class="flow-row centered">
+            <button class="flow-node process" data-info="agir" aria-haspopup="dialog"><span class="node-step">ETAPA 4</span>Agir para proteger e recuperar</button>
+          </div>
+          <div class="connector vertical" aria-hidden="true"></div>
+
+          <div class="flow-row centered">
+            <button class="flow-node decision" data-info="resultado" aria-haspopup="dialog"><span>A ação trouxe<br>bons resultados?</span></button>
+          </div>
+          <div class="result-branches" aria-hidden="true"><span class="result-stem"></span><span class="result-horizontal"></span><span class="result-down left"></span><span class="result-down right"></span><span class="result-arrow left"></span><span class="result-arrow right"></span></div>
+
+          <div class="branch-row result-row">
+            <div class="branch-column">
+              <span class="branch-label">SIM</span>
+              <button class="flow-node terminator finish" data-info="fim" aria-haspopup="dialog">Natureza protegida</button>
+            </div>
+            <div class="branch-column">
+              <span class="branch-label">NÃO — ajustar e tentar novamente</span>
+              <button class="flow-node process" data-info="aprender" aria-haspopup="dialog"><span class="node-step">ETAPA 5</span>Aprender com os dados e melhorar</button>
+            </div>
+          </div>
+          <div class="loop-note"><span aria-hidden="true">↶</span> Revise o plano e volte à etapa de ação: o cuidado é um ciclo.</div>
+        </div>
+      </div>
+      <p class="flow-footnote"><span aria-hidden="true">🤝</span> A IA ajuda a analisar informações, mas as decisões devem considerar especialistas, comunidades e conhecimentos locais.</p>
+    </section>
+
+    <section class="areas" aria-label="Áreas ambientais que podem se beneficiar">
+      <div><h2>Muitas formas de cuidar.</h2><p>A tecnologia pode apoiar a proteção de diferentes ecossistemas.</p></div>
+      <div class="area-tags"><span>💧 Água</span><span>🌱 Solo</span><span>🌬️ Ar</span><span>🌳 Florestas</span><span>🦋 Animais</span></div>
+    </section>
+  </main>
+
+  <footer class="page-width footer"><span><strong>IA pela Natureza</strong> · tecnologia a serviço da vida.</span><span>Informação, colaboração e cuidado começam com a gente.</span></footer>
+
+  <dialog class="info-dialog" aria-labelledby="dialog-title">
+    <button class="dialog-close" type="button" aria-label="Fechar explicação">×</button>
+    <p class="dialog-kicker">Entenda esta etapa</p>
+    <h2 id="dialog-title"></h2>
+    <p class="dialog-description"></p>
+    <p class="dialog-example"></p>
+  </dialog>
+</body>
+</html>
